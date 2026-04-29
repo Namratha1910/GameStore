@@ -10,6 +10,7 @@ builder.Services.AddValidation();
 var app = builder.Build();
 
 app.MapGamesEndpoints();
+app.MapGenresEndPoints();
 
 app.MigrateDb();
 

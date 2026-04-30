@@ -11,12 +11,12 @@ A RESTful API for managing video games and genres, built with ASP.NET Core and E
 
 ## Features
 
-- ✅ Create, Read, Update, Delete (CRUD) operations for games
-- ✅ Genre management
-- ✅ Database seeding with sample data
-- ✅ Async/await for all database operations
-- ✅ RESTful endpoint design
-- ✅ Entity relationships (Games ↔ Genres)
+- Create, Read, Update, Delete (CRUD) operations for games
+- Genre management
+- Database seeding with sample data
+- Async/await for all database operations
+- RESTful endpoint design
+- Entity relationships (Games ↔ Genres)
 
 ## Prerequisites
 
@@ -168,28 +168,6 @@ Then apply it:
 ```bash
 dotnet ef database update
 ```
-
-### Run Tests
-
-```bash
-dotnet test
-```
-
-## Future Enhancements
-
-- [ ] Authentication & Authorization (JWT)
-- [ ] Validation with FluentValidation
-- [ ] Pagination for game list
-- [ ] Filtering and sorting
-- [ ] Unit tests
-- [ ] API documentation with Swagger
-- [ ] Genres CRUD endpoints
-- [ ] Rating/review system
-- [ ] Database indexing for performance
-
-## License
-
-MIT
 
 ## Notes
 
